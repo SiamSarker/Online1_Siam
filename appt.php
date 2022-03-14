@@ -11,7 +11,7 @@
 
 	mysqli_query( $connect, "INSERT INTO ticket_booking VALUES ( '', '$name', '$date', '$from','$to','$status' )" )
 		or die("Can not execute query");
-
+		echo "Inserted";
 
 	echo "<p><a href=index.php>READ all records</a>";
 ?>
